@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Revision sur les formulaires</title>
+</head>
+<body>
+	<fieldset>
+		<legend align="center">Formulaire complet</legend>
+
+		<form action="">
+			<label for=""> Prénom</label><br>
+			<input type="text" name="prenom" placeholder="Entrer votre prénom"><br>
+			<label for="">Nom</label><br>
+			<input type="text" name="nom" maxlength="5" required placeholder="Entrer votre nom"><br>
+			<label for="">Genre</label><br>
+			M<input type="radio" name="sexe" checked> F <input type="radio" name="sexe" > <br>
+			<label for="">Numero de telephone</label><br>
+			<input type="tel"><br>
+			<label for="">Date de naissance</label><br>
+			<input type="datetime-local" > <br>
+			<label for="">Age</label><br>
+			<input type="number" min="1" step="50" max="100"><br>
+			<label for="">Pays</label><br>
+			<select name="" id="">
+				<option value="">Veuillez selectionner un pays</option>
+				<option value="Senegal">Sénégal</option>
+				<option value="Mali">Mali</option>
+				<option value="Guinee">Guinée</option>
+			</select><br>
+			<label for="">Langues</label><br>
+			Français <input type="checkbox" >
+			Anglais <input type="checkbox">
+			Chinois <input type="checkbox"><br>
+			<label for="">Fichier</label><br>
+			<input type="file"><br>
+			<label for="">Couleur</label><br>
+			<input type="color"><br>
+			<label for="">Message</label><br>
+			<textarea cols="100" rows="5"></textarea><br>
+			<label for="">Range</label><br>
+			<input type="range">
+
+
+
+			<br><button type="submit">Ajouter</button>
+			<input type="reset" value="Annuler">
+		</form>
+	</fieldset>
+</body>
+</html>
