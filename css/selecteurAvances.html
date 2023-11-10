@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Les selecteurs avancés</title>
+	<style>
+		#para, #titre{
+			color: red;
+		}
+
+		.para{
+			color: yellow;
+		}
+
+		p{
+			color: green;
+		}
+
+		input[type="email"],input[type="password"]{
+			width: 400px;
+		}
+
+		input[type="submit"]{
+			background: green;
+			color: white;
+			border: none;
+			height: 30px;
+			border-radius: 15px;
+		}
+
+		input[type="submit"]:hover{
+			background: orange;
+			transition: 3s;
+		}
+
+		#titre span{
+			border: 10px solid cyan;
+					
+		}
+
+		#custom{
+			background: purple;
+			width: 150px;
+			height: 50px;
+			text-align: center;
+			color: yellow;
+			border-radius: 0px 25px 25px 0px;
+			border-right: 15px double yellow;
+			cursor: progress;
+		}
+
+		#custom:hover{
+			border-radius: 25px 0px 0px 25px;
+			border-left: 15px double yellow;
+			border-right: none;
+			transition: 4s;
+			transform: rotate(-45deg);
+		}
+
+	</style>
+</head>
+<body>
+	<div id="custom">Personnalisé</div>
+
+	<p id="para" class="para" style="color: purple;">
+		Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste commodi molestiae adipisci neque eos rerum illo quasi, error numquam, quod corrupti veritatis natus in provident ducimus inventore ea excepturi aperiam.
+	</p>
+	<h1 id="titre">
+		mon titre <span>de niveau 1</span>
+	</h1>
+
+	<section>
+		une section <span> interne</span>
+	</section>
+
+	<form action="">
+		<label for="">Email</label><br>
+		<input type="email"><br>
+		<label for="">Mot de passe</label><br>
+		<input type="password" placeholder="*******"><br><br>
+		<input type="submit" value="Se connecter">
+	</form>
+</body>
+</html>
