@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            background: #5d5d5d;
+        }
+        .cards {
+            width: 870px;
+            height: 450px;
+            margin: auto;
+            padding: 20px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+        }
+        
+        .card{
+            width: 250px;
+            height: 400px;
+            border-radius: 10px;
+            box-shadow: 3px 3px 20px #000;
+        }
+
+        .card-header{
+            height: 40%;
+            width: 100%;
+            border-radius: 10px 10px 0px 0px;
+        }
+
+        .card-header img{
+            height: 100%;
+            width: 100%;
+            border-radius: 10px 10px 0px 0px;
+        }
+
+        .card-body{
+            height: 47%;
+            width: 210px;
+            background: white;
+            text-align: center;
+            padding: 20px 20px 0px 20px;
+            margin-top: -25px;
+        }
+
+        .card-body p {
+            font-size: 12px;
+            opacity: .7;
+        }
+
+        .card-body h3{
+            font-weight: bold;
+        }
+        .card-footer{
+            height: 14%;
+            width: 100%;
+            border-radius: 0px 0px 10px 10px;
+            text-align: center;
+            line-height: 50px;
+            color: white;
+        }
+
+        .bg-bleu{
+            background: blue;
+        }
+
+        .bg-rouge{
+            background: rgb(240, 5, 79);
+        }
+
+        .bg-vert{
+            background: rgb(151, 242, 4);
+        }
+
+        .title-bleu{
+            color: blue;
+        }
+
+        .title-rouge{
+            color: rgb(240, 5, 79);
+        }
+
+        .title-vert{
+            color: rgb(151, 242, 4);
+        }
+    </style>
+</head>
+<body>
+    <div class="cards">
+        <div class="card">
+            <div class="card-header">
+                <img src="../images/v1.jfif" alt="">
+            </div>
+            <div class="card-body">
+                <h6 class="title-bleu">Estados Unidos</h6>
+                <h3>Citade Um</h3>
+                <p>Lorem ipsum dolor sit,
+                     amet consectetur adipisicing elit. 
+                     Repellat quia, eius unde, fugit, quod perferendis 
+                     corrupti eligendi tenetur consectetur veritatis rerum?</p>
+            </div>
+            <div class="card-footer  bg-bleu">
+                Ver Mais
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <img src="../images/v2.jfif" alt="">
+            </div>
+            <div class="card-body">
+                <h6 class="title-rouge">Estados Unidos</h6>
+                <h3>Citade Um</h3>
+                <p>Lorem ipsum dolor sit,
+                     amet consectetur adipisicing elit. 
+                     Repellat quia, eius unde, fugit, quod perferendis 
+                     corrupti eligendi tenetur consectetur veritatis rerum?</p>
+            </div>
+            <div class="card-footer bg-rouge">
+                Ver Mais
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-header">
+                <img src="../images/v3.jfif" alt="">
+            </div>
+            <div class="card-body">
+                <h6 class="title-vert">Estados Unidos</h6>
+                <h3>Citade Um</h3>
+                <p>Lorem ipsum dolor sit,
+                     amet consectetur adipisicing elit. 
+                     Repellat quia, eius unde, fugit, quod perferendis 
+                     corrupti eligendi tenetur consectetur veritatis rerum?</p>
+            </div>
+            <div class="card-footer bg-vert">
+                Ver Mais
+            </div>
+        </div>
+    </div>
+</body>
+</html>
