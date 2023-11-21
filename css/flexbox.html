@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flexbox</title>
+    <style>
+        .boites{
+            border: 1px solid #000;
+            width: 420px;
+            height: 250px;
+            margin: auto;
+            display: flex;
+            flex-direction: row-reverse;
+            /* flex-direction: row;
+            flex-direction: column;
+            flex-direction: column-reverse; */
+            /* justify-content: space-evenly; */
+            /* justify-content: space-between; */
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+        .boite{
+            width: 200px;
+            height: 200px;
+            border: 1px solid #000;
+            font-size: 45px;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="boites">
+        <div class="boite">1</div>
+        <div class="boite">2</div>
+        <div class="boite">3</div>
+    </div>
+</body>
+</html>
