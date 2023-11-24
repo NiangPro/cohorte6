@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les positionnements en css</title>
+    <style>
+        .cadres{
+            width: 800px;
+            height: 400px;
+            margin: auto;
+            border: 1px solid #000;
+            margin-top: 50px;
+            position: relative;
+        }
+
+        .card-vert{
+            height: 100px;
+            width: 100px;
+            border: 1px solid #000;
+            background-color: green;
+            position: absolute;
+            bottom: 0px;
+            right: 0px;
+        }
+
+        .card-jaune{
+            height: 100px;
+            width: 100px;
+            border: 1px solid #000;
+            background-color: yellow;
+            position: absolute;
+            left: 250px;
+            top: 150px;
+            z-index: 5;
+        }
+
+        .card-rouge{
+            height: 100px;
+            width: 100px;
+            border: 1px solid #000;
+            background-color: red;
+            position: absolute;
+            left: 250px;
+            top: 100px;
+            z-index: -5;
+        }
+
+        nav{
+            width: 100%;
+            height: 50px;
+            border: 1px solid #000;
+            display: flex;
+            justify-content: space-between;
+            font-size: 30px;
+            background: cyan;
+            /* position: fixed;
+            top: 0px; */
+            position: sticky;
+            top: 0px;
+            z-index: 10;
+        }
+
+        .logo{
+            line-height: 45px;
+            padding-left: 20px;
+        }
+
+        ul{
+            list-style-type: none;
+            display: flex;
+            justify-content: space-between;
+            width: 60%;
+            line-height: 0px;
+        }
+
+        ul li a{
+            text-decoration: none;
+            color: black;
+            font-size: 28px;
+        }
+    </style>
+</head>
+<body>
+    <div class="cadres">
+        <div class="card-vert" ></div>
+        <div class="card-jaune" ></div>
+        <div class="card-rouge"></div>
+    </div>  
+    
+    <nav>
+        <div class="logo">
+            NiangPro
+        </div>
+        <ul>
+            <li><a href="">Accueil</a></li>
+            <li><a href="">Formations</a></li>
+            <li><a href="">Compétences</a></li>
+            <li><a href="">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nemo unde possimus eos voluptates. Eos mollitia totam culpa voluptates soluta, ea officia fugit neque, necessitatibus quibusdam est. Quas quibusdam consequatur repudiandae iste fuga vitae facilis, nobis aliquid eos eveniet corporis ipsa magnam maxime est fugiat ratione, ullam nemo quae quasi ab deserunt! Nihil quo totam animi. Nostrum eos, minus sint, quia, veniam ea adipisci expedita non consectetur inventore nisi omnis provident rerum aliquid placeat harum deserunt. Quae rem minus molestias repellendus optio debitis, doloremque officiis? Eum expedita accusantium cum esse vitae et, animi dignissimos. Enim facilis cum commodi vel voluptatum odit vitae, ipsam, aut non blanditiis repellendus cupiditate consequatur quas, sed nesciunt et! Assumenda, ad? Adipisci, ipsum. Iusto earum esse iste accusamus, quos error nisi! Vitae vel porro praesentium veniam architecto ipsa dolore, autem nisi, provident adipisci eos, impedit natus alias. Illum adipisci placeat praesentium debitis, labore cupiditate iure. Facere ut id quam, necessitatibus earum ipsum nesciunt distinctio tempora deleniti aliquam, ducimus officia hic nam quia voluptatibus quis impedit vitae. Molestias et, sit enim consequatur animi labore officia omnis ad possimus porro molestiae at nam rerum obcaecati voluptates ipsa consectetur doloremque laboriosam sequi? Alias quibusdam nobis dolorum a voluptatum, et asperiores dolore eaque minima? Nihil laboriosam dolores temporibus perspiciatis minima repellat voluptatibus, maxime itaque adipisci distinctio tempora sint, a magni architecto possimus impedit doloribus provident quod? Sit a quasi praesentium cum exercitationem? Vel ipsam quia obcaecati adipisci magnam et voluptatem exercitationem, quaerat neque placeat repellat eaque accusantium officiis sequi velit praesentium, officia nesciunt ipsa eos? Facilis nobis minima repellat tempora dolores quo deleniti placeat ipsum veniam tenetur? Doloremque, quidem atque ea optio vel nisi nulla nam cum? Repellat ipsam dolore explicabo non at iusto. Natus debitis aspernatur aut repellat accusantium hic, itaque mollitia quam veritatis non, cupiditate molestiae, tenetur consequuntur tempore error blanditiis optio architecto! Quis vel quasi et voluptatibus molestiae eligendi aliquid, molestias dignissimos architecto voluptas pariatur officiis a, ratione rerum facere ad commodi. Expedita maiores accusamus illo recusandae accusantium, numquam saepe excepturi placeat magni nulla vel minus aperiam nihil est hic qui consequatur reiciendis nesciunt iure voluptas totam fugiat libero. Corporis, tenetur fuga, explicabo harum minus quasi soluta perspiciatis delectus saepe officiis veniam maiores est nihil recusandae consequatur vero rem, facere laboriosam voluptatem nam. Ea velit reprehenderit ducimus dicta eum eos quo, obcaecati impedit totam sint iure eligendi doloremque harum ullam doloribus magni saepe eveniet unde illo officia quam consequatur quibusdam? Molestias odit magnam sed deleniti vitae, facilis quia! Aliquam, porro nobis atque minus harum voluptatibus possimus cum optio ut cumque explicabo officiis doloribus provident accusamus debitis recusandae quas enim beatae commodi unde perspiciatis aut. Ullam placeat nesciunt voluptates, officiis eum est sequi saepe fugit mollitia vero quis nulla! Vitae nisi modi, magni natus minima aliquid sed veniam eligendi repellat reprehenderit quia rem doloribus fugiat tenetur numquam expedita asperiores. Quisquam nisi exercitationem placeat. Quasi corporis ab maxime. Minus aut nobis harum earum illum, non molestiae fuga dolore consequatur, aperiam facilis similique sint. Ea neque temporibus eum asperiores error ratione vero corporis sapiente incidunt accusantium placeat voluptatum harum, quos id voluptates enim dolores suscipit optio odit velit quas! Sunt nemo fugit nesciunt a alias animi voluptatum porro. Quod ratione itaque reprehenderit voluptatibus totam dolores dignissimos! Officia nulla culpa explicabo corporis ipsam voluptatem perferendis, dolorem eum autem ipsa corrupti fugit facere modi molestias ab perspiciatis velit distinctio debitis harum commodi earum? Molestiae odit tempore voluptatem obcaecati omnis eum officia facilis rem doloribus sapiente, quibusdam, in suscipit possimus quia laborum natus quaerat ipsam enim. Consectetur est labore molestiae doloribus ipsam ad tempore commodi, quas odio optio consequuntur. Quisquam modi, ratione impedit dicta quos beatae veritatis libero minima maxime. Quidem qui est cum laudantium laboriosam libero distinctio. Animi, tempora cum nulla est culpa neque sequi! Voluptatibus veritatis explicabo optio placeat debitis corrupti, eum fugiat deleniti quod, eos adipisci cumque sunt voluptas velit, ad enim tenetur nulla earum fugit alias aperiam consequuntur suscipit. A amet adipisci quam, nostrum ipsum molestiae eos esse distinctio labore nesciunt quas omnis rerum magni commodi provident quidem aut non culpa soluta nemo. Dolor, sequi. Magnam consequatur quo animi obcaecati. Dignissimos, facere sed! Voluptatum accusantium, nesciunt ullam totam, amet atque rem sit inventore vel vitae alias suscipit reiciendis eaque libero ipsum nostrum et! Temporibus molestias quam, accusamus necessitatibus asperiores deserunt consequatur omnis. Vero optio cupiditate cum? Modi incidunt voluptatibus sunt quis corrupti, dignissimos sapiente, ullam adipisci tenetur, labore praesentium autem placeat quaerat libero distinctio. Maiores dolore omnis architecto quis consectetur, ad doloribus labore autem accusamus magnam facere illum minus minima ducimus cumque harum saepe! Est maiores minima suscipit quo maxime explicabo, sint ducimus rem ipsa asperiores nemo cupiditate commodi officia repudiandae nobis, possimus expedita quibusdam quae dolorum exercitationem recusandae. Architecto facere ex eos omnis dignissimos et ipsa aliquid alias ullam quasi obcaecati, est aspernatur sapiente odio! Est et, atque voluptates odit sunt, neque molestias, tenetur non sit repudiandae mollitia adipisci sequi aut illo similique odio natus quibusdam ex dolores repellat quasi modi minus ab suscipit! Cumque illum animi laborum consectetur non nam corporis, debitis dicta, ea doloremque ipsum earum quisquam in labore perspiciatis voluptatem officiis et? Repudiandae, numquam quibusdam harum quod explicabo est consequuntur laborum facere eos aspernatur suscipit molestias in cum sequi quia placeat fuga quidem id. Nulla aperiam iusto, non corrupti adipisci doloremque maxime! Corporis pariatur ipsam incidunt cumque mollitia magni, atque iusto illo expedita numquam vitae porro, rerum accusantium provident? A laborum nulla velit quibusdam iusto optio hic soluta? Nihil obcaecati rem laudantium iste consequuntur amet quos totam eaque autem fugiat culpa sapiente debitis facilis dolorem porro eum, repellat recusandae ullam nam saepe! Quasi maiores, placeat, similique est ipsam provident tempore qui a rem nulla optio repudiandae consectetur necessitatibus sunt. Atque officiis perspiciatis 
+        facere molestias nulla debitis, ipsum autem accusantium fugit illum alias voluptas aliquam animi distinctio ratione ullam! Nemo, excepturi eligendi? Ratione repellat officia reiciendis praesentium exercitationem vel voluptatibus delectus, maiores quos rerum? Vel, harum modi corporis aliquid eum, obcaecati veritatis explicabo accusantium magni aliquam, magnam eius quod animi minima ea voluptatibus quos! Necessitatibus, expedita!
+    </div>
+</body>
+</html>

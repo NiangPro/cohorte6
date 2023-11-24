@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les menus</title>
+    <style>
+        ul{
+            list-style-type: none;
+            display: flex;
+            justify-content: flex-end;
+            column-gap: 40px;
+        }
+        
+        ul li a{
+            text-decoration: none;
+            font-size: 30px;
+            color: black;
+        }
+
+        ul li{
+            border: 1px solid #000;
+            padding: 5px;
+        }
+
+        ul li:hover {
+            background: cyan;
+            border-radius: 0px 15px 0px 15px;
+            transition: .4s;
+        }
+        
+        ul li:hover a{
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li><a href="">Accueil</a></li>
+        <li><a href="">Apropos</a></li>
+        <li><a href="">Formations</a></li>
+        <li><a href="">Contact</a></li>
+    </ul>
+</body>
+</html>
