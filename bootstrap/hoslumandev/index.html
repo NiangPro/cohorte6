@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoslumandev - Bootstrap</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-sm navbar-dark fixed-top" id="menu">
+          <div class="container">
+            <!-- partie logo  -->
+            <a class="navbar-brand fs-3 fw-bold " href="#">Hosluman<span class="text-warning">Dev</span></a>
+            <!-- menu burger  -->
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon text-warning"></span>
+            </button>
+            <!-- partie menu  -->
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#" aria-current="page">Accueil <span class="visually-hidden">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Apropos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Compétences</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Galéries</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contact</a>
+                    </li>
+                    
+                </ul>
+                
+            </div>
+      </div>
+    </nav>
+
+    <section id="accueil" class="container-fluid mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 text-white text-center">
+                    <h2 class="text-warning">HOSLUMAN?</h2>
+                    <p class="fs-3 desc">
+                        Si vous avez un peu de patience, vous découvrirez qu'on peut utiliser les immenses ressources du Web pour perdre son
+                        temps avec une efficacité que vous n'aviez jamais osé imaginer!
+                    </p>
+                </div>
+                <div class="col-md-4 right-part" >
+                    <img src="images/home.jpeg" alt="" >
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="apropos" class="container">
+        <h3 class="my-title">A propos de nous</h3>
+        <div class="row">
+            <div class="col-md-6 partie-text">
+                Chaque matin nous nous reveillons avec une énergie 
+                débordante, prêtes à se plonger dans les défis de la journée.
+                 Nous nous cessons de se former et d'apprendre de nouvelles compétences 
+                 pour continuer à se dévelloper proffesionnellement. Notre enthousiasme est contagieux
+                 et nous abordons chaque tâche avec détermination et perséverance.
+            </div>
+            <div class="col-md-1"></div>
+            <div class="col-md-5 p-0 partie-video" >
+                <video src="images/video.mp4" controls></video>
+            </div>
+        </div>
+    </section>
+
+    <section id="competences" class="container">
+        <h3 class="my-title">Compétences</h3>
+        <div class="row gy-3">
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="images/page_html.png" alt="Title" />
+                    <div class="card-body text-center">
+                        <h4 class="card-title">HTML</h4>
+                        <p class="card-text">
+                            HTML signifie « HyperText Markup Language » qu'on peut 
+                            traduire par « langage de balises pour l'hypertexte ». 
+                            Il est utilisé afin de créer
+                             et de représenter le contenu d'une page web et sa structure.
+                        </p>
+                        <a href="" class="btn btn-dark text-warning rounded-pill">Voir plus</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="images/bootstrap.jfif" alt="Title" />
+                    <div class="card-body text-center">
+                        <h4 class="card-title">BOOTSTRAP</h4>
+                        <p class="card-text">
+                            Bootstrap est une collection d'outils utiles à la création 
+                            du design de sites et d'applications web. C'est un ensemble qui 
+                            contient des codes HTML et CSS, des formulaires, boutons, outils 
+                            de navigation et autres éléments interactifs.
+                        </p>
+                        <a href="" class="btn btn-dark text-warning rounded-pill">Voir plus</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="images/css.jfif" alt="Title" />
+                    <div class="card-body text-center fs-6">
+                        <h4 class="card-title">CSS</h4>
+                        <p class="card-text">
+                            CSS (Cascading Style Sheets ou en français "Feuilles de style en cascade")
+                             est utilisé pour styliser et mettre en page des pages Web - par exemple,
+                              pour modifier la police, la couleur  ou  autres éléments décoratifs.
+                        </p>
+                        <a href="" class="btn btn-dark text-warning rounded-pill">Voir plus</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="images/php.jfif" alt="Title" />
+                    <div class="card-body text-center fs-6">
+                        <h4 class="card-title">PHP</h4>
+                        <p class="card-text">
+                            PHP: Hypertext Preprocessor, plus connu sous son sigle PHP,
+                             est un langage de programmation libre, principalement utilisé 
+                             pour produire des pages Web dynamiques via un serveur web.
+                        </p>
+                        <a href="" class="btn btn-dark text-warning rounded-pill">Voir plus</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="images/js.jfif" alt="Title" />
+                    <div class="card-body text-center fs-6">
+                        <h4 class="card-title">JAVASCRIPT</h4>
+                        <p class="card-text">
+                            JavaScript est un langage de programmation de scripts 
+                            principalement employé dans les pages web interactives 
+                            et à ce titre est une partie essentielle des applications web.
+                            JavaScript est au cœur des langages utilisés. 
+                        </p>
+                        <a href="" class="btn btn-dark text-warning rounded-pill">Voir plus</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img class="card-img-top" src="images/mysql.jfif" alt="Title" />
+                    <div class="card-body text-center fs-6">
+                        <h4 class="card-title">MYSQL</h4>
+                        <p class="card-text">
+                            MySQL est un système de gestion de bases de données relationnelles (SGBDR).
+                             Il est distribué sous une double licence GPL et propriétaire. 
+                             Il fait partie des logiciels de gestion de base de données les plus utilisés au monde2.
+                        </p>
+                        <a href="" class="btn btn-dark text-warning rounded-pill">Voir plus</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="galeries" class="container">
+        <h3 class="my-title">Galéries</h3>
+        <div class="container">
+            
+            <div class="person">
+                <img src="images/alioune.jpeg" alt="">
+                <div class="survolement">
+                    <p class="text-warning">Alioune</p>
+                    <a href="images/abdou.jpeg" class="btn btn-outline-warning text-white rounded-pill"><i class="fa fa-eye"></i> Voir plus</a>
+                </div>
+            </div>
+
+            <div class="person">
+                <img src="images/mog.jpeg" alt="">
+                <div class="survolement">
+                    <p class="text-warning">Mouhamad Gueye</p>
+                    <a href="images/abdou.jpeg" class="btn btn-outline-warning text-white rounded-pill"><i class="fa fa-eye"></i> Voir plus</a>
+                </div>
+            </div>
+            <div class="person">
+                <img src="images/diegane.jpeg" alt="">
+                <div class="survolement">
+                    <p class="text-warning">Diegane Ndiaye</p>
+                    <a href="images/abdou.jpeg" class="btn btn-outline-warning text-white rounded-pill"><i class="fa fa-eye"></i> Voir plus</a>
+                </div>
+            </div>
+
+            <div class="person">
+                <img src="images/mariama.jpeg" alt="">
+                <div class="survolement">
+                    <p class="text-warning">Mariama Faye</p>
+                    <a href="images/abdou.jpeg" class="btn btn-outline-warning text-white rounded-pill"><i class="fa fa-eye"></i> Voir plus</a>
+                </div>
+            </div>
+
+            <div class="person">
+                <img src="images/khadyngom.jpeg" alt="">
+                <div class="survolement">
+                    <p class="text-warning">Khady Ngom</p>
+                    <a href="images/abdou.jpeg" class="btn btn-outline-warning text-white rounded-pill"><i class="fa fa-eye"></i> Voir plus</a>
+                </div>
+            </div>
+
+            <div class="person">
+                <img src="images/abdou.jpeg" alt="">
+                <div class="survolement">
+                    <p class="text-warning">Abdou Aziz</p>
+                    <a href="images/abdou.jpeg" class="btn btn-outline-warning text-white rounded-pill"><i class="fa fa-eye"></i> Voir plus</a>
+                </div>
+            </div>
+
+            <div class="person">
+                <img src="images/faye.jpeg" alt="">
+                <div class="survolement">
+                    <p class="text-warning">Alimatou Faye</p>
+                    <a href="images/abdou.jpeg" class="btn btn-outline-warning text-white rounded-pill"><i class="fa fa-eye"></i> Voir plus</a>
+                </div>
+            </div>
+
+            <div class="person">
+                <img src="images/saliou.jpeg" alt="">
+                <div class="survolement">
+                    <p class="text-warning">Saliou Dieng</p>
+                    <a href="images/abdou.jpeg" class="btn btn-outline-warning text-white rounded-pill"><i class="fa fa-eye"></i> Voir plus</a>
+                </div>
+            </div>
+
+            <div class="person">
+                <img src="images/mariama.jpeg" alt="">
+                <div class="survolement">
+                    <p class="text-warning">Mariama Diallo</p>
+                    <a href="images/abdou.jpeg" class="btn btn-outline-warning text-white rounded-pill"><i class="fa fa-eye"></i> Voir plus</a>
+                </div>
+            </div>
+
+            <div class="person">
+                <img src="images/mouhamed.jpeg" alt="">
+                <div class="survolement">
+                    <p class="text-warning">Mouhamad Tall</p>
+                    <a href="images/abdou.jpeg" class="btn btn-outline-warning text-white rounded-pill"><i class="fa fa-eye"></i> Voir plus</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="footer" class="container-fluid text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h1>Hosluman<span class="text-warning">Dev</span></h1>
+                    <p>
+                        HoslumanDev est un groupe de jeunes dynamiques,
+                        engages, et passionnes du codages. ce site est
+                        reserve a toutes les personnes ambitieuses, voulant
+                        s' interesser a connaitre le monde du Developpement Web.
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <h1>Contact</h1>
+                    <h6><i class="fa fa-location-dot"></i> Parcelles Assainies Unite 17, a cote du terminus DDD.</h6> 
+
+                    <h6><i class="fa fa-phone"></i> +221-77-150-96-49</h6>
+
+                   <h6><i class="fa fa-envelope"></i> rassul2000@gmail.com</h6> 
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="container-fluid">
+        <div class="container text-warning">
+            <div class="row">
+                <div class="col-md-8 col-sm-12">
+                   &copy; Touts droits réservés à Cohorte 6
+                </div>
+                <div class="col-md-4 col-sm-12 text-end">
+                    Conçu par Cohorte 6
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+    <script src="bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js"></script>
+</body>
+</html>

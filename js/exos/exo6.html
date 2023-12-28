@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exo6</title>
+</head>
+<body>
+    
+    <script>
+        let code = prompt("Veuillez le code orange money");
+
+        if (code == "#144#") {
+            let choix = prompt(`
+                1: Solde de mes comptes
+                2: Transfert d'argent
+                3: Paiement de facture
+                4: Achats: Crédit et pass
+                5: Paiement biens et services
+                6: Dons et cotisations
+                7: Option
+                8: Banque-assurance
+                9: Jeux
+            `);
+
+            switch (choix) {
+                case "1":
+                    choix = prompt(`
+                    1: Solde compte orange money
+                    2: Mon salaire
+                    3: Reception internationale
+                    4: Compteur KDO
+                    `);
+
+                    switch (choix) {
+                        case "1":
+                            prompt("Veuillez entrer votre code secret");
+
+                            alert("Vous avez 2 000 000 FCFA");
+                            break;
+                    
+                        default:
+                            alert("Choix indisponible");
+                            break;
+                    }
+                    break;
+            
+                default:
+                    alert("Choix indisponible");
+                    break;
+            }
+
+        }else{
+            alert("Service indisponible");
+        }
+    </script>
+</body>
+</html>

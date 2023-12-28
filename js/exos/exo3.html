@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exo 3</title>
+</head>
+<body>
+    <script>
+        let note = parseFloat(prompt("Entrer une note"));
+        if (note > 20) {
+            document.write("La note devrait être comprise entre 0 et 20");
+        }else if (note > 17) {
+            document.write("Excellent");
+        }else if(note >= 16){
+            document.write("Tres bien");
+        }else if(note >= 14){
+            document.write("Bien");
+        }else if(note >= 13){
+            document.write("A Bien");
+        }else if(note >= 10){
+            document.write("Passable");
+        }else if(note >= 0 && note < 10){
+            document.write("Mediocre");
+        }else{
+            document.write("La note devrait être comprise entre 0 et 20");
+        }
+    </script>
+</body>
+</html>

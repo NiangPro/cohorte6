@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les essentiels</title>
+</head>
+<body>
+    <script>
+        let age = "12";
+        let note = "12.5";
+        let prenom = "mdou";
+        let trouve = false;
+
+        let nentier = parseFloat(note);
+
+        let new_age = parseInt(age);
+
+        let second_age = new_age.toString();
+        // document.write(typeof second_age);
+        document.write(nentier);
+
+        // les operations 
+        let a = 23, b=7;
+        let somme = a+b;
+       sous = a-b;
+        let produit = a*b;
+        let divDeci = a/b;
+        let divEntier = parseInt(a/b);
+        let modulo = a%b;
+
+        document.write(`
+            ${somme} <br>
+            ${sous} <br>
+            ${produit} <br>
+            ${divDeci} <br>
+            ${divEntier} <br>
+            ${modulo} <br>
+
+        `)
+    </script>
+</body>
+</html>

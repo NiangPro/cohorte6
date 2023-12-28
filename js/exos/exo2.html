@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exo2</title>
+</head>
+<body>
+    <script>
+        let valeur1 = prompt("Entrer la première valeur")
+        let valeur2 = prompt("Entrer la deuxième valeur")
+
+        document.write(`
+            ${valeur1} + ${valeur2} = ${parseInt(valeur1) + parseInt(valeur2)} <br>
+            ${valeur1} - ${valeur2} = ${parseInt(valeur1) - parseInt(valeur2)} <br>
+            ${valeur1} x ${valeur2} = ${parseInt(valeur1) * parseInt(valeur2)} <br>
+            ${valeur1} / ${valeur2} = ${parseInt(valeur1) / parseInt(valeur2)} <br>
+            ${valeur1} div ${valeur2} = ${parseInt(valeur1/valeur2)} <br>
+            ${valeur1} % ${valeur2} = ${ valeur1%valeur2} <br>
+        `);
+    </script>
+</body>
+</html>

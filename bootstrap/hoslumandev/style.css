@@ -1,0 +1,161 @@
+.my-title{
+    font-weight: bold;
+    border-right: 5px solid #000;
+    border-bottom-right-radius: 50px;
+    box-shadow: 3px 3px 5px orange, -1px -1px 10px grey;
+    padding: 2px;
+    text-shadow: 3px 3px 5px orange;
+    margin-bottom: 50px;
+    font-family: "Constanian";
+}
+#menu{
+    background: #0f1428;
+    box-shadow: 5px 5px 5px orange;
+}
+
+.nav-item .nav-link{
+    font-size: 20px;
+}
+
+#accueil{
+    border: 1px solid #000;
+    background: linear-gradient(rgba(0,0,0,.4), rgba(0,0,0,.4)), url("images/bg3.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 70px 0px;
+}
+
+#accueil .right-part img{
+    width: 100%;
+    border-radius: 50%;
+    border-right: 10px solid orange;
+    height: 300px;
+    box-shadow: 3px 3px 3px #0f1428, -3px -3px 3px #0f1428;
+}
+
+#apropos{
+    padding: 70px 0px;
+}
+#apropos .partie-video video{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+#apropos .partie-video{
+    box-shadow: 3px 3px 3px #0f1428, -3px -3px 3px #0f1428;
+    border-radius: 20px;
+}
+
+#apropos .partie-text{
+    font-size: 24px;
+    border-right: 3px solid #0f1428;
+    border-radius: 10px;
+}
+
+#apropos .partie-text::first-letter{
+    color: orange;
+    font-size: 52px;
+    font-family: "Algerian";
+}
+
+#competences{
+    padding: 70px 0px;
+}
+
+#competences .card{
+    box-shadow: 2px 2px 3px orange, -2px -2px 3px orange;
+}
+
+#competences .card-img-top{
+    height: 200px;
+}
+
+
+#galeries{
+    padding: 70px 0px;
+}
+
+#galeries .container{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 20px;
+    justify-content: center;
+}
+
+#galeries .person{
+    width: 260px;
+    height: 260px;
+    position: relative;
+    box-shadow: 3px 3px 3px orange;
+}
+
+#galeries .person img{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: -5;
+}
+
+#galeries .person .survolement{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+}
+
+#galeries .person:hover .survolement{
+    visibility: visible;
+    transition: 1s ease-out;
+}
+
+#footer{
+    background: linear-gradient(to left, #273052, #30395b);
+    padding: 50px 0px;
+}
+
+footer{
+    background: #0f1428;
+    padding: 10px;
+}
+
+@media only screen and (max-width:480px){
+    #accueil .desc{
+        
+        font-size: 15px!important;
+    }
+ 
+    #accueil .right-part{
+        display: none;
+    }
+
+    #apropos .partie-text{
+        font-size: 15px!important;
+    }
+
+}
+
+@media screen and (min-width:480px) and (max-width:768px){
+    #accueil .desc{
+        
+        font-size: 20px!important;
+    }
+ 
+    #accueil .right-part{
+        display: none;
+    }
+
+    #apropos .partie-text{
+        font-size: 20px!important;
+    }
+}

@@ -1,0 +1,16 @@
+#home{
+    border: 1px solid #000;
+    height: 400px;
+    background-image: url("img.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container-fluid{
+    padding: 0px;
+}
+
+#apropos{
+    border: 1px solid #000;
+    height: 300px;
+}

@@ -1,0 +1,1 @@
+alert("Je suis dans une page separée");
